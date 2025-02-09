@@ -6,9 +6,9 @@ from telegram import Update, InputFile, InlineKeyboardButton, InlineKeyboardMark
 from telegram.ext import Updater, CommandHandler, MessageHandler, CallbackQueryHandler, Filters, CallbackContext
 from flask import Flask
 
-TOKEN = "তোমার_বটের_টোকেন"
-LOGS_CHANNEL = "@YourLogsChannel"  # লগ সংরক্ষণের চ্যানেল
-SCRAP_CHANNEL = "@YourScrapChannel"  # পোস্টার সংরক্ষণের চ্যানেল
+TOKEN = "8059561681:AAFQ0CpRiP-DPB5ZM6XU1YrwIp5-dfPKesY"
+LOGS_CHANNEL = "-1002316472437"  # লগ সংরক্ষণের চ্যানেল
+SCRAP_CHANNEL = "-1002457337623"  # পোস্টার সংরক্ষণের চ্যানেল
 
 app = Flask(__name__)
 
@@ -122,11 +122,11 @@ def search_movie(update: Update, context: CallbackContext):
 # 🔹 স্টার্ট হ্যান্ডলার
 def start(update: Update, context: CallbackContext):
     keyboard = [
-        [InlineKeyboardButton("📢 Main Channel", url="https://t.me/YourMainChannel")],
-        [InlineKeyboardButton("📀 Backup Channel", url="https://t.me/YourBackupChannel")],
-        [InlineKeyboardButton("📩 Request Group", url="https://t.me/YourRequestGroup")],
-        [InlineKeyboardButton("🛠 Admins", url="https://t.me/YourAdmins")],
-        [InlineKeyboardButton("💬 Support Group", url="https://t.me/YourSupportGroup")],
+        [InlineKeyboardButton("📢 Main Channel", url="https://t.me/RM_Movie_Flix")],
+        [InlineKeyboardButton("📀 Backup Channel", url="https://t.me/RM_Movi")],
+        [InlineKeyboardButton("📩 Request Group", url="https://t.me/Movies_Rm")],
+        [InlineKeyboardButton("🛠 Admins", url="https://t.me/RahatMx")],
+        [InlineKeyboardButton("💬 Support Group", url="https://t.me/Movies_Supports")],
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     
