@@ -1,0 +1,5 @@
+flask
+python-telegram-bot
+pillow
+beautifulsoup4
+requests
