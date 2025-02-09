@@ -1,5 +1,6 @@
-flask
-python-telegram-bot
-pillow
-beautifulsoup4
+python-telegram-bot==20.0
+Flask
 requests
+beautifulsoup4
+pillow
+pymongo
